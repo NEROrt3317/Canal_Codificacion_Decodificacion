@@ -1,6 +1,15 @@
 # Canal_Codificacion_Decodificacion
 Esta es la explicación de la practica de laboratorio 2
 
+# Explicacion de todos los codigos 
+
+```
+
+```
+
+
+
+
 ## Informe de Resultados de Pruebas en Comunicación Digital
 ### Introducción
 En este proyecto se han realizado pruebas de transmisión de datos utilizando tres tipos de información: texto, audio e imágenes. Estas pruebas se realizaron bajo un canal simulado con errores binarios, utilizando la codificación Hamming(7,4) para mejorar la fiabilidad de la transmisión (FEC). El objetivo es comparar la tasa de error de bits (BER) cuando se utiliza FEC frente a cuando no se usa.
