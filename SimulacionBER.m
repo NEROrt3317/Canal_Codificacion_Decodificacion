@@ -61,11 +61,13 @@ BER2 = mean(BER_conFEC);
 fprintf("BER sin FEC: %g\n", BER1);
 fprintf("BER con FEC: %g\n", BER2);
 
-% Graficar resultados
+% Graficar resultados con curvas
 figure;
-bar([BER1, BER2]);
-set(gca, 'xticklabel', {'Sin FEC', 'Con FEC'});
-ylabel('BER promedio');
+plot(1:N, BER_sinFEC, '-o', 'DisplayName', 'BER sin FEC', 'LineWidth', 2, 'MarkerSize', 6);
+hold on;
+plot(1:N, BER_conFEC, '-x', 'DisplayName', 'BER con FEC', 'LineWidth', 2, 'MarkerSize', 6);
+xlabel('Número de simulación');
+ylabel('BER (Tasa de Error de Bit)');
 title('Comparación de BER con y sin Hamming(7,4)');
+legend;
 grid on;
-
