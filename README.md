@@ -3,7 +3,7 @@ Esta es la explicación de la practica de laboratorio 2
 
 # Explicación de los Códigos y Funciones Utilizadas en el Proyecto
 
-Este documento explica los scripts y funciones utilizados en el proyecto de simulación de comunicaciones digitales con y sin codificación Hamming(7,4).
+Este documento explica los scripts y funciones utilizados en la practica de simulación de comunicaciones digitales con y sin codificación Hamming(7,4).
 
 1. SimulacionBER.m
 
